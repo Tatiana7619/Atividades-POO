@@ -14,7 +14,7 @@
         }
         else
         {
-            Console.WriteLine("número inválido");
+            Console.WriteLine("Entrada inválida!Digite um número Válido");
         }
     }
 }
