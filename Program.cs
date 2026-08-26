@@ -1,13 +1,20 @@
-﻿class Program
+﻿class Pessoa
+{
+    public string Nome;
+
+}
+class Program
 {
     static void Main()
     {
-        int a = 10;
-        int b = a;
 
-        b = 50;
+        Pessoa p1 = new Pessoa();
+        p1.Nome = "João";
 
-        Console.WriteLine($"Valor da primeira variável : {a}");
-        Console.WriteLine($"Valor da segunda variável : {b}");
+        Pessoa p2 = p1;
+
+        p2.Nome = "Maria";
+
+        Console.WriteLine(p1.Nome);
     }
 }
